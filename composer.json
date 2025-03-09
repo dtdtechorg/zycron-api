@@ -1,0 +1,21 @@
+{
+    "name": "zycron/bot",
+    "description": "Zycron API uchun webhook asosida ishlaydigan bot paketi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Doniyorbek To'lqinboyev",
+            "email": "janobdtd@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
